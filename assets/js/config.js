@@ -16,9 +16,9 @@ window.DML_CONFIG = {
     // 格式："YYYY-MM-DD"。未确定就保持 null
     anniversary: null,
     // 格式："YYYY-MM-DD"。未确定就保持 null
-    birthday: "2006-08-22",
+    birthday: "2006-08-23",
     birthdayMonth: 8,
-    birthdayDay: 22,
+    birthdayDay: 23,
     timezone: "Asia/Shanghai",
     locale: "zh-CN",
     // 信纸左上角的日期；留空则显示 “20__ · 某一天”
