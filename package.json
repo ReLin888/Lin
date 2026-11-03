@@ -1,0 +1,19 @@
+{
+  "name": "dear-my-love",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dear, My Love — a cream-and-sakura static love letter site built with Vite.",
+  "packageManager": "pnpm@11.28.5",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/vite-dev.mjs",
+    "build": "node scripts/vite-build.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

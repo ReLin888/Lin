@@ -1,0 +1,8 @@
+- insert:
+    - id: dear-my-love-builder
+      name: '@local/dear-my-love-builder'
+      config:
+        projectDir: 'D:/Lin/DeepSeek/ReLin'
+        packageManager: 'pnpm'
+        nodePath: 'C:/Users/Lin/.dsh/dsh-runtimes/dsh-primary-runtime/dependencies/node/bin/node.exe'
+        pnpmScript: 'C:/Users/Lin/.dsh/dsh-runtimes/dsh-primary-runtime/dependencies/pnpm/bin/pnpm.mjs'
