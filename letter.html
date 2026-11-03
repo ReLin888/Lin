@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>专属情书 — Dear, My Love</title>
+  <meta name="description" content="有一封信，写了很久，还没寄出。写给未来女朋友的三封信：在遇见你之前、关于以后、如果有一天。">
+  <meta name="theme-color" content="#fffaf4">
+  <meta property="og:title" content="专属情书 — Dear, My Love">
+  <meta property="og:description" content="见字如面。虽然我们，还没见过。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/memory-08-CQFQYTqU.svg">
+  <link rel="icon" href="./assets/favicon-EOJ-KFrL.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" crossorigin href="./assets/styles-gdf0D_sU.css">
+</head>
+<body data-page="letter">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <canvas class="petal-canvas" data-petals aria-hidden="true"></canvas>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Dear, My Love 首页">
+        <span class="brand-mark" aria-hidden="true">D<span>.</span></span>
+        <span class="brand-copy">
+          <span class="brand-name">Dear, My Love</span>
+          <span class="brand-sub">for my someday</span>
+        </span>
+      </a>
+      <nav class="primary-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我</a>
+        <a href="gallery.html">照片墙</a>
+        <a href="days.html">纪念日</a>
+        <a href="wishlist.html">一起做的事</a>
+        <a href="letter.html" aria-current="page">情书</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-cta" href="#the-letter">
+          现在就拆开
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="打开菜单">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+    <div class="mobile-menu__inner">
+      <p class="mobile-menu__label">A little map of us</p>
+      <nav class="mobile-menu__nav" aria-label="移动端导航">
+        <a href="index.html"><small>01</small> 首页</a>
+        <a href="about.html"><small>02</small> 关于我</a>
+        <a href="gallery.html"><small>03</small> 照片墙</a>
+        <a href="days.html"><small>04</small> 纪念日</a>
+        <a href="wishlist.html"><small>05</small> 一起做的事</a>
+        <a href="quiz.html"><small>06</small> 猜猜我</a>
+        <a href="letter.html" aria-current="page"><small>07</small> 情书</a>
+      </nav>
+    </div>
+    <div class="mobile-menu__foot">
+      <span>Made slowly,<br>for one person only.</span>
+      <span class="hand">See you someday.</span>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero letter-hero" aria-labelledby="letter-title">
+      <div class="shell">
+        <div class="letter-hero__inner">
+          <div class="page-hero__copy">
+            <nav class="page-crumb" aria-label="面包屑">
+              <a href="index.html">Index</a>
+              <span>/</span>
+              <span>A letter, sealed for someday</span>
+            </nav>
+            <p class="eyebrow">Words I kept for you</p>
+            <h1 id="letter-title">有一封信，<br><em>只写给你。</em></h1>
+            <p class="page-hero__lead">
+              它写在没有地址的深夜，写给我还没有遇见的你。里面有我关于未来的想象，也有一些不太擅长当面说出口的话。如果你愿意，现在就拆开它。
+            </p>
+            <p class="letter-hero__hint">见字如面。虽然我们，还没见过。</p>
+          </div>
+
+          <div class="letter-envelope-stage" data-letter-envelope-stage>
+            <div class="letter-envelope">
+              <div class="letter-envelope__shadow" aria-hidden="true"></div>
+              <div class="letter-envelope__paper" aria-hidden="true"></div>
+              <div class="letter-envelope__body" aria-hidden="true"></div>
+              <div class="letter-envelope__flap" aria-hidden="true"></div>
+              <div class="letter-envelope__stamp" aria-hidden="true">D.</div>
+              <button class="letter-envelope__seal" type="button" data-open-letter aria-label="拆开这封信">
+                <span aria-hidden="true">D</span>
+              </button>
+            </div>
+            <p class="letter-envelope-hint">轻触火漆印章 · 拆开</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-section" id="the-letter" aria-labelledby="the-letter-title">
+      <div class="shell">
+        <h2 class="sr-only" id="the-letter-title">三封写给你的信</h2>
+        <div class="letter-tabs" role="tablist" aria-label="信件选择">
+          <button class="letter-tab" id="letter-tab-1" type="button" role="tab" aria-selected="true" aria-controls="letter-panel-1" data-letter-tab="0">在遇见你之前</button>
+          <button class="letter-tab" id="letter-tab-2" type="button" role="tab" aria-selected="false" aria-controls="letter-panel-2" data-letter-tab="1" tabindex="-1">关于以后</button>
+          <button class="letter-tab" id="letter-tab-3" type="button" role="tab" aria-selected="false" aria-controls="letter-panel-3" data-letter-tab="2" tabindex="-1">如果有一天</button>
+        </div>
+
+        <article class="letter-paper" id="letter-panel-1" role="tabpanel" aria-labelledby="letter-tab-1" data-letter-panel>
+          <div class="letter-paper__head">
+            <span>Letter 01 · Before we met</span>
+            <span data-letter-date>20__ · 某一天</span>
+          </div>
+          <h2>在遇见你之前，<br><em>我先学会了等待。</em></h2>
+          <p class="letter-salutation">致 未来的你：</p>
+          <div class="letter-body">
+            <p>展信安。</p>
+            <p>写这封信的时候，我还不知道你在哪里，叫什么名字，喜欢甜的还是苦的咖啡。也不知道我们第一次见面，会是在一场雨里，还是某个再普通不过的下午。</p>
+            <p>但我已经提前练习了很多事。比如在超市看到第二杯半价的酸奶时，忍住不买两杯；比如路过好看的晚霞，会想“如果她在就好了”；比如在别人问起感情状态时，笑着说一句：<em>“还在等她。”</em></p>
+            <p>听起来有点傻，对吧。可我觉得，一个人愿意为还没出现的人认真生活，本身也是一件很浪漫的事。所以我好好吃饭，好好工作，偶尔运动，尽量成为一个温柔、稳定、有趣的人。不是为了让你满意，而是希望等你出现的时候，我能坦然地站在你面前，说一句：</p>
+            <p><strong>“你好，我准备好了。”</strong></p>
+            <p>我猜你也会有疲惫的时候。会在深夜怀疑自己，会因为一句无心的话难过很久，会希望有人不用你解释就能明白。我想成为那个人。不是替你解决所有问题，只是在你需要的时候，站在你旁边。</p>
+            <p>所以请你不用着急。你可以慢慢来，先过好自己的生活，先成为你想成为的人。我会在这段时间里，继续把这座小小的网站建好，把照片墙空着，把纪念日留着，把那颗心放在一个你伸手就能够到的位置。</p>
+            <p>等你来的时候，记得点一下它。我会听见的。</p>
+          </div>
+          <p class="letter-paper__sign">From, <span data-signature>爱你的男孩</span></p>
+          <p class="letter-paper__ps">P.S. 如果你先看到这封信，可不可以先不要笑我。这些话，我练习了很久。</p>
+        </article>
+
+        <article class="letter-paper" id="letter-panel-2" role="tabpanel" aria-labelledby="letter-tab-2" data-letter-panel hidden>
+          <div class="letter-paper__head">
+            <span>Letter 02 · About afterwards</span>
+            <span data-letter-date>20__ · 某一天</span>
+          </div>
+          <h2>关于以后，<br><em>我想得很具体。</em></h2>
+          <p class="letter-salutation">致 已经出现的你：</p>
+          <div class="letter-body">
+            <p>如果有一天，我们真的在一起了，我想先告诉你：我不太会讲漂亮话，但会记得很多小事。</p>
+            <p>记得你喝奶茶要几分糖，记得你每个月哪几天会格外累，记得你吃火锅先涮什么，记得你害怕的东西和你嘴上说“没事”的时候其实有事。不是为了证明我有多细心，只是因为关于你的事情，我想知道。</p>
+            <p>我想和你过很普通的日子。周末睡到自然醒，一个人去买早餐，另一个人赖床；下午各自做自己的事，偶尔抬头交换一个眼神；晚上去散步，路过便利店就买两支雪糕。回家以后，你看你的剧，我读我的书，但脚会不小心碰到一起。</p>
+            <p>我们一定也会吵架。可能会有很糟糕的沉默，会有谁都不肯先低头的时候。但我希望我们都能记得：<em>我们是站在同一边的。</em> 问题才是对面那个，不是彼此。我不会用冷暴力惩罚你，也不会在生气的时候说伤人的话。如果做不到，你可以提醒我。</p>
+            <p>我还想和你去很多地方。去看一次海，在退潮的沙滩上写名字；去一座有旧街道的小城，吃不好吃但很贵的小吃；去山顶看星星，然后把外套披在你身上，虽然我自己也很冷。旅行的目的地可以再商量，重要的是，身边的人是你。</p>
+            <p>对了，我还想和你拍很多照片。把现在空着的照片墙一张一张填满，把那些“等以后”变成“就是今天”。</p>
+          </div>
+          <p class="letter-paper__sign">From, <span data-signature>爱你的男孩</span></p>
+          <p class="letter-paper__ps">P.S. 以上条款，最终解释权归你。想反悔的话，也可以赖在我怀里说。</p>
+        </article>
+
+        <article class="letter-paper" id="letter-panel-3" role="tabpanel" aria-labelledby="letter-tab-3" data-letter-panel hidden>
+          <div class="letter-paper__head">
+            <span>Letter 03 · If one day</span>
+            <span data-letter-date>20__ · 某一天</span>
+          </div>
+          <h2>如果有一天，<br><em>我们走散了。</em></h2>
+          <p class="letter-salutation">致 无论在哪里的你：</p>
+          <div class="letter-body">
+            <p>这封信，我希望你永远都不需要读到。</p>
+            <p>但如果真的有那一天，我想把一些话提前放在这里。不是挽留，也不是诅咒我们的未来，只是想在还平静的时候，认真地说清楚。</p>
+            <p>谢谢你曾经愿意把时间分给我，愿意让我知道你那些不轻易告诉别人的事，愿意在我面前不化妆、不逞强、不完美。那些时刻对我来说，比任何一句“我爱你”都更珍贵。</p>
+            <p>如果分开是因为我做得不够好，那我认。我会难过，会反思，会在很长一段时间里反复想起你。但我不会纠缠，不会用过去绑架你，也不会否定我们曾经真心相待。</p>
+            <p>如果分开是因为我们真的不合适，那也没关系。不是所有喜欢都能走到最后，但所有认真喜欢过的日子都算数。你不必觉得亏欠我什么，我也不想成为你以后想起时会皱眉的人。</p>
+            <p>我只希望，无论以后你身边站着谁，你都能被好好对待。希望你还是会为小事开心，还是敢爱敢恨，还是那个让我在人群里一眼看见的人。</p>
+            <p>而我呢，会好好生活。会记得这段路，也会继续往前走。</p>
+            <p><strong>如果有一天我们真的走散了，请你一定要过得很好。</strong> 好到让我觉得，曾经喜欢过你，是件特别值得的事。</p>
+          </div>
+          <p class="letter-paper__sign">From, <span data-signature>爱你的男孩</span></p>
+          <p class="letter-paper__ps">P.S. 当然，最好还是不要走散。我比较贪心，想和你走到很后面。</p>
+        </article>
+
+        <div class="letter-pager">
+          <span class="letter-pager__count" data-letter-count>01 / 03</span>
+          <div class="letter-pager__buttons">
+            <button type="button" data-letter-prev>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3 5 8l5 5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              上一封
+            </button>
+            <button type="button" data-letter-next>
+              下一封
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m6 3 5 5-5 5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reply-section" aria-labelledby="reply-title">
+      <div class="shell">
+        <div class="reply-card reveal">
+          <div class="reply-card__copy">
+            <p class="kicker">A blank space for you</p>
+            <h2 id="reply-title">这封信的结尾，<br><em>想留给你写。</em></h2>
+            <p>你可以写下想对我说的话，或者只是留一个名字。这里不会上传到任何地方，只会安静地保存在这台设备的浏览器里。</p>
+            <p class="reply-card__quote">“我在等你的回信，<br>哪怕只有一个标点。”</p>
+          </div>
+
+          <div class="reply-form-wrap">
+            <form class="reply-form" data-reply-form>
+              <div class="field">
+                <label for="reply-name">落款 · 你的名字（可以留白）</label>
+                <input id="reply-name" name="name" type="text" maxlength="40" placeholder="未来的你">
+              </div>
+              <div class="field">
+                <label for="reply-message">回信</label>
+                <textarea id="reply-message" name="message" maxlength="600" required placeholder="写点什么吧，哪怕只是“我看到了”。"></textarea>
+              </div>
+              <div class="reply-form__foot">
+                <p class="reply-form__privacy">只保存在本机浏览器，不会上传，也不会发送给任何人。</p>
+                <button class="btn btn--primary" type="submit">
+                  折好，放进抽屉
+                  <span class="btn__mark" aria-hidden="true">
+                    <svg viewBox="0 0 16 16" fill="none"><path d="M8 13S2.5 9.6 2.5 5.8C2.5 3.9 3.9 2.6 5.5 2.6c1.1 0 2 .6 2.5 1.5.5-.9 1.4-1.5 2.5-1.5 1.6 0 3 1.3 3 3.2C13.5 9.6 8 13 8 13Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+                  </span>
+                </button>
+              </div>
+            </form>
+
+            <div class="reply-saved" data-reply-saved hidden>
+              <div class="reply-saved__note">
+                <p data-reply-saved-text></p>
+                <div class="reply-saved__sign" data-reply-saved-sign></div>
+              </div>
+              <div class="reply-saved__actions">
+                <button class="btn btn--ghost" type="button" data-reply-edit>重新写一封</button>
+                <small>保存在这台设备的浏览器里</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer on-dark">
+    <div class="shell">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-brand__mark" href="index.html" aria-label="回到首页">Dear, <em>my love.</em></a>
+          <p>一个提前准备好的小宇宙。等它的女主人出现，再正式开业。网站名称、日期和照片，都可以随时换成我们的版本。</p>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title">Wander around</p>
+          <nav class="footer-nav" aria-label="页脚导航">
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我</a>
+            <a href="gallery.html">照片墙</a>
+            <a href="days.html">纪念日</a>
+            <a href="wishlist.html">一起做的事</a>
+            <a href="quiz.html">猜猜我</a>
+            <a href="letter.html">专属情书</a>
+          </nav>
+        </div>
+        <div class="footer-meta">
+          <div class="footer-meta__row"><span>Our status</span><strong>未来女朋友 · 等待中</strong></div>
+          <div class="footer-meta__row"><span>Here, now</span><strong class="time" data-local-time>--:--</strong></div>
+          <div class="footer-meta__row"><span>Next chapter</span><strong>To be continued</strong></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__left">
+          <span>© <span data-year>2026</span> Dear, My Love</span>
+          <span class="footer-bottom__dot" aria-hidden="true"></span>
+          <span>Site no. 001</span>
+          <button class="footer-secret" type="button" data-secret-replay hidden>
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.8 9.5 6l4.3 1.5-4.3 1.5L8 13.4 6.5 9 2.2 7.5 6.5 6 8 1.8Z" stroke="currentColor" stroke-width="1"/></svg>
+            The little secret
+          </button>
+        </div>
+        <a class="footer-top-link" href="#main">
+          Back to top
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="music-dock" data-music aria-label="背景音乐">
+    <div class="music-panel" id="music-panel" data-music-panel hidden>
+      <div class="music-panel__head">
+        <div><p class="kicker">Now playing</p><strong data-music-title>A Little Serenade</strong></div>
+        <button class="music-panel__close" type="button" data-music-close aria-label="收起音乐面板">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="music-panel__track">
+        <span class="music-panel__track-icon" aria-hidden="true">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M8 14.2V6.3l7-1.7v7.8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="6" cy="14.6" rx="2.2" ry="1.6" stroke="currentColor" stroke-width="1.2"/><ellipse cx="13" cy="12.8" rx="2.2" ry="1.6" stroke="currentColor" stroke-width="1.2"/></svg>
+        </span>
+        <div><strong>写给未来的你</strong><small data-music-description>原创音乐盒 · 实时生成</small></div>
+        <button class="music-panel__play" type="button" data-music-toggle aria-label="播放背景音乐" aria-pressed="false">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path class="music-icon-play" d="M5 3.2 12.4 8 5 12.8V3.2Z" fill="currentColor"/>
+            <path class="music-icon-pause" d="M4.6 3.5h2.1v9H4.6zM9.3 3.5h2.1v9H9.3z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+      <label class="music-volume">
+        <span class="music-volume__label">Volume <output data-music-volume-output>34%</output></span>
+        <input type="range" min="0" max="1" step="0.01" value="0.34" data-music-volume aria-label="背景音乐音量">
+      </label>
+      <p class="music-panel__note">戴上耳机，慢慢读。<br>这首歌不会有终点。</p>
+    </div>
+    <div class="music-controls">
+      <button class="music-fab" type="button" data-music-toggle aria-label="播放背景音乐" aria-pressed="false">
+        <span class="music-fab__disc" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="none">
+            <path class="music-icon-play" d="M5 3.2 12.4 8 5 12.8V3.2Z" fill="currentColor"/>
+            <path class="music-icon-pause" d="M4.6 3.5h2.1v9H4.6zM9.3 3.5h2.1v9H9.3z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="music-fab__copy"><strong data-music-state>Play our song</strong><small data-music-subtitle>our little song</small></span>
+        <span class="music-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      </button>
+      <button class="music-expand" type="button" data-music-expand aria-label="打开音乐设置" aria-expanded="false" aria-controls="music-panel">
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 5h10M3 8h10M3 11h10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/date-utils.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/music.js" defer></script>
+  <script src="assets/js/letter.js" defer></script>
+</body>
+</html>
