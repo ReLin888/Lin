@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">海边落日</title>
+  <desc id="desc">粉橘色的太阳落在安静的海面上，海水把余晖拉成一条长长的金光。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f7f9d"/>
+      <stop offset=".35" stop-color="#d9a2aa"/>
+      <stop offset=".67" stop-color="#f4c4ae"/>
+      <stop offset="1" stop-color="#f9e2c8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c48d91"/>
+      <stop offset=".35" stop-color="#8d6574"/>
+      <stop offset="1" stop-color="#463d52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff6df" stop-opacity="1"/>
+      <stop offset=".35" stop-color="#ffe4c5" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ffcfb7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9c7" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#e9b394" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="tinyblur">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#sky)"/>
+  <g opacity=".48" fill="#f7d3c5">
+    <path d="M-30 230c180-46 328-34 508 4 152 32 292 26 452-15v44c-180 43-318 44-472 11-170-37-314-47-488-4Z" filter="url(#blur)"/>
+    <path d="M-50 365c210-51 363-30 557 13 144 31 283 26 431-8v28c-165 38-300 39-455 6-187-40-330-52-533-7Z" opacity=".6" filter="url(#blur)"/>
+    <path d="M-20 569c224-31 363-22 531 7 154 27 287 22 420-10v23c-155 29-294 34-442 5-166-31-310-35-509-5Z" opacity=".5" filter="url(#blur)"/>
+  </g>
+  <circle cx="448" cy="706" r="268" fill="url(#glow)" opacity=".9"/>
+  <circle cx="448" cy="704" r="92" fill="#fff1d5"/>
+  <circle cx="448" cy="704" r="72" fill="#ffe4b4"/>
+
+  <g fill="none" stroke="#76555f" stroke-linecap="round" opacity=".7">
+    <path d="M120 270c27-13 52-13 77 0-22 8-44 8-66 0" stroke-width="3"/>
+    <path d="M712 362c19-9 37-9 55 0-16 6-32 6-48 0" stroke-width="2.4"/>
+    <path d="M210 456c14-6 28-6 42 0-12 5-24 5-36 0" stroke-width="2"/>
+  </g>
+
+  <path d="M0 760c158-17 292-13 449 4 171 19 308 14 451-4v440H0Z" fill="url(#sea)"/>
+  <path d="M374 746c32-17 112-17 146 0 0 12-146 12-146 0Z" fill="#fff0cf" opacity=".7" filter="url(#tinyblur)"/>
+  <path d="M388 768c29-15 90-15 118 0l-19 346c-31 17-60 17-87 0Z" fill="url(#path)" opacity=".72" filter="url(#blur)"/>
+
+  <g opacity=".7" stroke-linecap="round" stroke="#fde3c5">
+    <path d="M296 828h126M410 874h104M536 824h180M250 918h154M462 932h188M585 980h137M316 1006h88M486 1042h202" stroke-width="3"/>
+    <path d="M342 774h80M571 782h121M208 866h98M650 886h88M383 962h70M580 1060h121" stroke-width="2" opacity=".65"/>
+  </g>
+  <g opacity=".32" stroke="#413548" stroke-width="2">
+    <path d="M180 842h120M390 894h88M574 856h95M246 1000h130M500 1028h168M612 1104h100"/>
+  </g>
+
+  <g fill="#3f3444">
+    <path d="M0 1118c163-80 249-98 390-92 95 4 157 22 235 67 78 45 156 61 275 45v62H0Z" opacity=".92"/>
+    <path d="M642 1160c33-83 51-148 55-207 3-28 7-54 21-77 4 32 4 69-2 108-7 52-24 108-50 178Z"/>
+    <g stroke="#3f3444" stroke-width="4" stroke-linecap="round">
+      <path d="M688 962c-14-40-30-63-51-84M691 934c19-31 35-48 59-61M690 971c-1-55 4-90 17-124M696 1030c-20-39-27-62-32-89M700 1035c21-31 40-48 62-61"/>
+    </g>
+  </g>
+
+  <g stroke="#3d3243" stroke-width="2.2" fill="none" opacity=".55" stroke-linecap="round">
+    <path d="M84 1120c22-42 48-68 73-88M134 1084c20-8 35-7 51 2M153 1040c-1-24 2-42 11-58M171 1010c17-20 33-31 49-38"/>
+  </g>
+
+  <rect width="900" height="1200" fill="#5a394c" opacity=".06"/>
+</svg>
