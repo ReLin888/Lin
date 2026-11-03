@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-labelledby="title desc">
+  <title id="title">雨夜的城市灯火</title>
+  <desc id="desc">雨后的城市泛着暖色的光，一对身影并肩站在街灯下，远处的灯火化成柔软的圆斑。</desc>
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a405e"/>
+      <stop offset=".44" stop-color="#846271"/>
+      <stop offset=".75" stop-color="#c78e89"/>
+      <stop offset="1" stop-color="#e7b9a0"/>
+    </linearGradient>
+    <linearGradient id="street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#413947"/>
+      <stop offset=".5" stop-color="#2e2a39"/>
+      <stop offset="1" stop-color="#211f2c"/>
+    </linearGradient>
+    <linearGradient id="lamp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6b3" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffd29d" stop-opacity=".05"/>
+    </linearGradient>
+    <filter id="bokeh" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="750" fill="url(#dusk)"/>
+  <ellipse cx="170" cy="260" rx="220" ry="180" fill="#b17d8b" opacity=".25" filter="url(#glow)"/>
+  <ellipse cx="790" cy="340" rx="240" ry="160" fill="#e2a286" opacity=".18" filter="url(#glow)"/>
+
+  <g fill="#ffd9a0" filter="url(#bokeh)">
+    <circle cx="170" cy="180" r="46" opacity=".6"/>
+    <circle cx="235" cy="126" r="18" opacity=".5"/>
+    <circle cx="320" cy="228" r="30" opacity=".3"/>
+    <circle cx="733" cy="192" r="52" opacity=".4"/>
+    <circle cx="823" cy="120" r="23" opacity=".5"/>
+    <circle cx="900" cy="286" r="38" opacity=".28"/>
+    <circle cx="625" cy="305" r="22" opacity=".36"/>
+    <circle cx="484" cy="176" r="15" opacity=".26"/>
+    <circle cx="89" cy="392" r="34" opacity=".25"/>
+  </g>
+  <g fill="#f5c3ad" filter="url(#bokeh)" opacity=".3">
+    <circle cx="390" cy="370" r="65"/>
+    <circle cx="580" cy="420" r="42"/>
+    <circle cx="948" cy="430" r="58"/>
+    <circle cx="123" cy="476" r="27"/>
+  </g>
+
+  <g fill="#3d3548">
+    <path d="M0 480h86v138H0ZM112 438h58v180h-58ZM744 462h74v156h-74ZM842 420h64v198h-64ZM926 470h74v148h-74Z"/>
+    <path d="M190 510h64v108h-64ZM274 468h34v150h-34ZM652 488h70v130h-70ZM602 526h30v92h-30Z"/>
+  </g>
+  <g fill="#ffd59c" opacity=".72">
+    <rect x="22" y="508" width="12" height="17" rx="1"/><rect x="48" y="508" width="12" height="17" rx="1"/>
+    <rect x="22" y="544" width="12" height="17" rx="1"/><rect x="48" y="576" width="12" height="17" rx="1"/>
+    <rect x="124" y="465" width="12" height="16" rx="1"/><rect x="146" y="465" width="12" height="16" rx="1"/>
+    <rect x="124" y="499" width="12" height="16" rx="1"/><rect x="146" y="534" width="12" height="16" rx="1"/>
+    <rect x="764" y="490" width="11" height="15" rx="1"/><rect x="788" y="490" width="11" height="15" rx="1"/>
+    <rect x="764" y="524" width="11" height="15" rx="1"/><rect x="788" y="560" width="11" height="15" rx="1"/>
+    <rect x="860" y="447" width="11" height="15" rx="1"/><rect x="884" y="447" width="11" height="15" rx="1"/>
+    <rect x="860" y="481" width="11" height="15" rx="1"/><rect x="884" y="520" width="11" height="15" rx="1"/>
+    <rect x="942" y="498" width="11" height="15" rx="1"/><rect x="968" y="498" width="11" height="15" rx="1"/>
+    <rect x="668" y="512" width="10" height="14" rx="1"/><rect x="688" y="512" width="10" height="14" rx="1"/>
+  </g>
+
+  <path d="M0 602c160-18 282-9 434 0 152 9 266 1 370-13 75-10 138-9 196-2v163H0Z" fill="url(#street)"/>
+  <path d="M0 590c176-14 306-6 461 3 143 8 265 0 356-12 68-9 124-7 183-1v23c-157-8-242 4-365 13-147 11-255 10-381 2C158 610 81 607 0 614Z" fill="#dc9a86" opacity=".2"/>
+  <g opacity=".28" stroke="#f6bc9f" stroke-width="3" stroke-linecap="round">
+    <path d="M74 625h100M168 654h165M330 626h88M828 630h110M706 664h158M548 622h72M452 664h122"/>
+  </g>
+
+  <g>
+    <path d="M103 298v312" stroke="#272433" stroke-width="7"/>
+    <path d="M77 610h52" stroke="#272433" stroke-width="9" stroke-linecap="round"/>
+    <path d="M103 300c-28 0-44 18-45 38h90c-1-20-17-38-45-38Z" fill="#2e2938"/>
+    <circle cx="103" cy="332" r="26" fill="#ffe2ac" opacity=".85" filter="url(#soft)"/>
+    <ellipse cx="103" cy="648" rx="29" ry="8" fill="#e8b095" opacity=".28" filter="url(#soft)"/>
+    <path d="M103 366c30 72 42 152 39 244h-78c-3-92 9-172 39-244Z" fill="url(#lamp)" opacity=".24"/>
+  </g>
+
+  <g>
+    <ellipse cx="588" cy="660" rx="102" ry="13" fill="#17151f" opacity=".5" filter="url(#soft)"/>
+    <g fill="#1d1b27">
+      <path d="M536 645c-3-60 2-108 12-145 3-11 8-18 16-18 9 0 14 8 16 22l8 141Z"/>
+      <path d="M552 487c-11-7-15-21-10-33 5-13 20-19 32-13 11 6 16 20 10 32-4 7-10 11-17 13l2 18h-10Z"/>
+      <path d="M564 638c-4-63 2-113 15-148 4-11 10-18 18-17 9 1 13 10 13 24l-7 141Z"/>
+      <path d="M583 476c-12-9-14-24-6-35 8-12 23-15 34-7 10 8 12 23 5 34-5 7-12 11-20 11l-1 20h-9Z"/>
+      <path d="M548 520c8 14 6 32-1 47M582 506c8 13 8 28 4 44" stroke="#1d1b27" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <path d="M573 543c-9 8-12 19-12 32M576 543c8 9 10 20 10 32" stroke="#1d1b27" stroke-width="8" stroke-linecap="round" fill="none"/>
+    </g>
+    <g fill="#1d1b27" opacity=".85">
+      <path d="M557 642l-8 29h14l8-29Z"/><path d="M587 640l7 30h13l-9-30Z"/>
+    </g>
+    <g fill="#f3b08f" opacity=".35" filter="url(#soft)">
+      <ellipse cx="551" cy="479" rx="4" ry="7"/><ellipse cx="589" cy="470" rx="4" ry="7"/>
+    </g>
+  </g>
+
+  <g fill="#e7b090" opacity=".18" filter="url(#soft)">
+    <ellipse cx="180" cy="648" rx="55" ry="14"/>
+    <ellipse cx="742" cy="674" rx="74" ry="12"/>
+  </g>
+  <rect width="1000" height="750" fill="#3b2744" opacity=".06"/>
+</svg>
