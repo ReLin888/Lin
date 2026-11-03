@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>纪念日 — Dear, My Love</title>
+  <meta name="description" content="纪念日还在等待一个名字，生日已经写进北京时间日历。每个 8 月 22 日，都值得被认真过成节日。">
+  <meta name="theme-color" content="#fffaf4">
+  <meta property="og:title" content="纪念日 — Dear, My Love">
+  <meta property="og:description" content="把普通的日子，过成纪念日。纪念日、生日与未来的每一个第一次。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/memory-09-Bg6HqAwB.svg">
+  <link rel="icon" href="./assets/favicon-EOJ-KFrL.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" crossorigin href="./assets/styles-gdf0D_sU.css">
+</head>
+<body data-page="days">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <canvas class="petal-canvas" data-petals aria-hidden="true"></canvas>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Dear, My Love 首页">
+        <span class="brand-mark" aria-hidden="true">D<span>.</span></span>
+        <span class="brand-copy">
+          <span class="brand-name">Dear, My Love</span>
+          <span class="brand-sub">for my someday</span>
+        </span>
+      </a>
+      <nav class="primary-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我</a>
+        <a href="gallery.html">照片墙</a>
+        <a href="days.html" aria-current="page">纪念日</a>
+        <a href="wishlist.html">一起做的事</a>
+        <a href="letter.html">情书</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-cta" href="letter.html">
+          写给你的一封信
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="打开菜单">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+    <div class="mobile-menu__inner">
+      <p class="mobile-menu__label">A little map of us</p>
+      <nav class="mobile-menu__nav" aria-label="移动端导航">
+        <a href="index.html"><small>01</small> 首页</a>
+        <a href="about.html"><small>02</small> 关于我</a>
+        <a href="gallery.html"><small>03</small> 照片墙</a>
+        <a href="days.html" aria-current="page"><small>04</small> 纪念日</a>
+        <a href="wishlist.html"><small>05</small> 一起做的事</a>
+        <a href="quiz.html"><small>06</small> 猜猜我</a>
+        <a href="letter.html"><small>07</small> 情书</a>
+      </nav>
+    </div>
+    <div class="mobile-menu__foot">
+      <span>Made slowly,<br>for one person only.</span>
+      <span class="hand">See you someday.</span>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero days-hero" aria-labelledby="days-title">
+      <div class="shell">
+        <div class="page-hero__inner days-hero__inner">
+          <div class="page-hero__copy">
+            <nav class="page-crumb" aria-label="面包屑">
+              <a href="index.html">Index</a>
+              <span>/</span>
+              <span>Days worth keeping</span>
+            </nav>
+            <p class="eyebrow">Some dates are worth waiting for</p>
+            <h1 id="days-title">把普通的日子，<br><em>过成纪念日。</em></h1>
+            <p class="page-hero__lead">
+              纪念日还在等待一个名字，但你的生日已经有了确定的日期。每年北京时间 8 月 22 日，都会是我认真期待、提前准备的一天。
+            </p>
+            <div class="page-hero__actions">
+              <button class="btn btn--primary" type="button" data-celebrate>
+                预览心动时刻
+                <span class="btn__mark" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M8 13S2.5 9.6 2.5 5.8C2.5 3.9 3.9 2.6 5.5 2.6c1.1 0 2 .6 2.5 1.5.5-.9 1.4-1.5 2.5-1.5 1.6 0 3 1.3 3 3.2C13.5 9.6 8 13 8 13Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <a class="text-link" href="#the-calendar">
+                看看我们的日历
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <aside class="page-hero__aside" aria-label="纪念日占位日历">
+            <div class="calendar-sheet">
+              <div class="calendar-sheet__top">
+                <span>Date to be written</span>
+                <em>our calendar</em>
+              </div>
+              <div class="calendar-sheet__middle">
+                <span class="calendar-sheet__year" data-calendar-year>20__</span>
+                <span class="calendar-sheet__day" data-calendar-day>?</span>
+                <span class="calendar-sheet__month" data-calendar-month>某个<br>月份</span>
+              </div>
+              <div class="calendar-sheet__foot">
+                <span data-calendar-caption>等待被命名的一天</span>
+                <span>someday soon</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--flush" id="the-calendar" aria-labelledby="dashboard-title">
+      <div class="shell">
+        <h2 class="sr-only" id="dashboard-title">我们的日子</h2>
+        <div class="days-dashboard">
+          <article class="days-main-card reveal">
+            <div class="days-main-card__head">
+              <p class="kicker">Our days / since someday</p>
+              <span>Day by day</span>
+            </div>
+            <div class="days-main-card__body">
+              <div class="days-main-card__number" data-days-number>∞</div>
+              <span class="days-main-card__unit">days together</span>
+              <p class="days-main-card__caption" data-days-caption>
+                等到那一天确定，这里会从第 1 天开始数。现在它是无限，因为未来还没有被写完。
+              </p>
+            </div>
+            <div class="days-main-card__foot">
+              <span>Day count</span>
+              <span>To be continued</span>
+            </div>
+          </article>
+
+          <div class="days-side">
+            <article class="countdown-card reveal" data-countdown-card="anniversary">
+              <div class="countdown-card__head">
+                <p class="kicker">Next anniversary</p>
+                <span data-anniversary-note>那一天待命名</span>
+              </div>
+              <div class="countdown-grid" data-countdown="anniversary">
+                <div class="countdown-cell"><strong data-countdown-days>—</strong><span>Days</span></div>
+                <div class="countdown-cell"><strong data-countdown-hours>—</strong><span>Hours</span></div>
+                <div class="countdown-cell"><strong data-countdown-minutes>—</strong><span>Mins</span></div>
+                <div class="countdown-cell"><strong data-countdown-seconds>—</strong><span>Secs</span></div>
+              </div>
+              <p class="countdown-card__note">等纪念日有了名字，这里会开始倒数。现在先留一个空位给你。</p>
+            </article>
+
+            <article class="countdown-card reveal" data-countdown-card="birthday" style="--reveal-delay:.1s">
+              <div class="countdown-card__head">
+                <p class="kicker">Her birthday</p>
+                <span data-birthday-note>北京时间 8 月 22 日</span>
+              </div>
+              <div class="countdown-grid" data-countdown="birthday">
+                <div class="countdown-cell"><strong data-countdown-days>—</strong><span>Days</span></div>
+                <div class="countdown-cell"><strong data-countdown-hours>—</strong><span>Hours</span></div>
+                <div class="countdown-cell"><strong data-countdown-minutes>—</strong><span>Mins</span></div>
+                <div class="countdown-cell"><strong data-countdown-seconds>—</strong><span>Secs</span></div>
+              </div>
+              <p class="countdown-card__note">以后每年都会替你记得。北京时间 8 月 22 日，准时想你。</p>
+              <div class="birthday-wish" data-birthday-wish hidden>
+                <span class="birthday-wish__kicker">Happy birthday · 生日快乐</span>
+                <p>今天，愿所有的温柔都先找到你。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="date-cards">
+          <article class="date-card reveal">
+            <div class="date-card__top">
+              <p class="kicker">Anniversary</p>
+              <span class="status-pill">Date pending</span>
+            </div>
+            <h3 data-anniversary-label>待你命名</h3>
+            <p>它可以是第一次见面的日子，也可以是决定在一起的那天。名字和日期，都由我们后来再定。</p>
+            <span class="date-card__hint">那一天，会值得被记住</span>
+          </article>
+
+          <article class="date-card reveal" style="--reveal-delay:.1s">
+            <div class="date-card__top">
+              <p class="kicker">Birthday</p>
+              <span class="status-pill">Every August</span>
+            </div>
+            <h3 data-birthday-label>2006 年 8 月 22 日</h3>
+            <p>8 月 22 日，从今以后会是日历上被圈起来的一天。每一年，都替你记得。</p>
+            <span class="date-card__hint">以后，年年都替你记得</span>
+          </article>
+        </div>
+
+        <aside class="love-note reveal" aria-labelledby="love-note-label">
+          <div class="love-note__head">
+            <p class="kicker" id="love-note-label">A line for today</p>
+            <span class="love-note__index" data-love-note-index>NO. 01</span>
+          </div>
+          <blockquote data-love-note>“我还没有遇见你，但已经开始练习，怎么把一个人放进未来里。”</blockquote>
+          <div class="love-note__foot">
+            <span>写给未来的你</span>
+            <span class="hand">from, 一个提前喜欢你的人</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section milestones-section" aria-labelledby="milestones-title">
+      <div class="shell">
+        <div class="milestones-head reveal">
+          <h2 id="milestones-title">还没发生，<br><em>但已经在期待。</em></h2>
+          <p>Our firsts<br>To be continued</p>
+        </div>
+        <div class="milestone-list reveal">
+          <div class="milestone">
+            <span class="milestone__no">01</span>
+            <div class="milestone__title">第一次见面<small>First hello</small></div>
+            <p class="milestone__desc">地点待定，天气待定，我会穿一件你可能会喜欢的衬衫。</p>
+            <span class="milestone__date">某一天</span>
+          </div>
+          <div class="milestone">
+            <span class="milestone__no">02</span>
+            <div class="milestone__title">第一次约会<small>First date</small></div>
+            <p class="milestone__desc">吃饭、散步，或者只是坐着。心跳的频率，到时候再测。</p>
+            <span class="milestone__date">待预约</span>
+          </div>
+          <div class="milestone">
+            <span class="milestone__no">03</span>
+            <div class="milestone__title">第一次旅行<small>First journey</small></div>
+            <p class="milestone__desc">目的地待定。想去看海，或者去一座有旧街道的小城。</p>
+            <span class="milestone__date">目的地待定</span>
+          </div>
+          <div class="milestone">
+            <span class="milestone__no">04</span>
+            <div class="milestone__title">第一个纪念日<small>First anniversary</small></div>
+            <p class="milestone__desc">等它有了日期，我会提前在日历上画一颗很小的心。</p>
+            <span class="milestone__date">日期待写</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section preview-section" aria-labelledby="preview-title">
+      <div class="shell">
+        <div class="preview-panel reveal">
+          <div class="preview-panel__copy">
+            <p class="kicker">A little preview</p>
+            <h2 id="preview-title">先看看，<br>那一天<em>会是什么样子。</em></h2>
+            <p>选一个日子，或者直接播放。花瓣、彩纸和一句写了很久的话，已经准备好了。</p>
+          </div>
+          <div class="preview-panel__actions">
+            <form class="date-form" data-date-preview>
+              <label for="date-preview-input">试写一个日子</label>
+              <div class="date-form__row">
+                <input id="date-preview-input" name="date" type="date" required>
+                <button class="btn btn--primary" type="submit">预览这一天</button>
+              </div>
+              <p class="date-form__note">只是一次预览，不会保存，也不会改变网站配置。</p>
+            </form>
+            <div class="preview-panel__divider">or</div>
+            <button class="btn btn--ghost" type="button" data-celebrate>播放纪念日特效</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer on-dark">
+    <div class="shell">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-brand__mark" href="index.html" aria-label="回到首页">Dear, <em>my love.</em></a>
+          <p>一个提前准备好的小宇宙。等它的女主人出现，再正式开业。网站名称、日期和照片，都可以随时换成我们的版本。</p>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title">Wander around</p>
+          <nav class="footer-nav" aria-label="页脚导航">
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我</a>
+            <a href="gallery.html">照片墙</a>
+            <a href="days.html">纪念日</a>
+            <a href="wishlist.html">一起做的事</a>
+            <a href="quiz.html">猜猜我</a>
+            <a href="letter.html">专属情书</a>
+          </nav>
+        </div>
+        <div class="footer-meta">
+          <div class="footer-meta__row"><span>Our status</span><strong>未来女朋友 · 等待中</strong></div>
+          <div class="footer-meta__row"><span>Here, now</span><strong class="time" data-local-time>--:--</strong></div>
+          <div class="footer-meta__row"><span>Next chapter</span><strong>To be continued</strong></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__left">
+          <span>© <span data-year>2026</span> Dear, My Love</span>
+          <span class="footer-bottom__dot" aria-hidden="true"></span>
+          <span>Site no. 001</span>
+          <button class="footer-secret" type="button" data-secret-replay hidden>
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.8 9.5 6l4.3 1.5-4.3 1.5L8 13.4 6.5 9 2.2 7.5 6.5 6 8 1.8Z" stroke="currentColor" stroke-width="1"/></svg>
+            The little secret
+          </button>
+        </div>
+        <a class="footer-top-link" href="#main">
+          Back to top
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="music-dock" data-music aria-label="背景音乐">
+    <div class="music-panel" id="music-panel" data-music-panel hidden>
+      <div class="music-panel__head">
+        <div><p class="kicker">Now playing</p><strong data-music-title>A Little Serenade</strong></div>
+        <button class="music-panel__close" type="button" data-music-close aria-label="收起音乐面板">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="music-panel__track">
+        <span class="music-panel__track-icon" aria-hidden="true">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M8 14.2V6.3l7-1.7v7.8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="6" cy="14.6" rx="2.2" ry="1.6" stroke="currentColor" stroke-width="1.2"/><ellipse cx="13" cy="12.8" rx="2.2" ry="1.6" stroke="currentColor" stroke-width="1.2"/></svg>
+        </span>
+        <div><strong>写给未来的你</strong><small data-music-description>原创音乐盒 · 实时生成</small></div>
+        <button class="music-panel__play" type="button" data-music-toggle aria-label="播放背景音乐" aria-pressed="false">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path class="music-icon-play" d="M5 3.2 12.4 8 5 12.8V3.2Z" fill="currentColor"/>
+            <path class="music-icon-pause" d="M4.6 3.5h2.1v9H4.6zM9.3 3.5h2.1v9H9.3z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+      <label class="music-volume">
+        <span class="music-volume__label">Volume <output data-music-volume-output>34%</output></span>
+        <input type="range" min="0" max="1" step="0.01" value="0.34" data-music-volume aria-label="背景音乐音量">
+      </label>
+      <p class="music-panel__note">戴上耳机，慢慢逛。<br>这首歌不会有终点。</p>
+    </div>
+    <div class="music-controls">
+      <button class="music-fab" type="button" data-music-toggle aria-label="播放背景音乐" aria-pressed="false">
+        <span class="music-fab__disc" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="none">
+            <path class="music-icon-play" d="M5 3.2 12.4 8 5 12.8V3.2Z" fill="currentColor"/>
+            <path class="music-icon-pause" d="M4.6 3.5h2.1v9H4.6zM9.3 3.5h2.1v9H9.3z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="music-fab__copy"><strong data-music-state>Play our song</strong><small data-music-subtitle>our little song</small></span>
+        <span class="music-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      </button>
+      <button class="music-expand" type="button" data-music-expand aria-label="打开音乐设置" aria-expanded="false" aria-controls="music-panel">
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 5h10M3 8h10M3 11h10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/date-utils.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/music.js" defer></script>
+  <script src="assets/js/days.js" defer></script>
+</body>
+</html>
